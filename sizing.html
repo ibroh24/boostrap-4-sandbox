@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>sizing -bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- width -->
+        <div style="border: 2px solid rgb(0, 0, 0); width: 300px;">
+            <p class="bg-success p-1 m-1 text-warning w-25">bootstrap width 25%</p>
+            <p class="bg-success p-1 m-1 text-warning w-50">bootstrap width 50%</p>
+            <p class="bg-success p-1 m-1 text-warning w-75">bootstrap width 75%</p>
+            <p class="bg-success p-1 m-1 text-warning w-100">bootstrap width 100%</p>
+            <p class="bg-success p-1 m-1 text-warning w-auto">bootstrap width auto</p>
+            <br>
+        </div>
+        <!-- height -->
+        <div style="height: 300px; width: 700px; border: 1px solid;">
+            <p class="bg-secondary d-inline-block text-warning h-25">bootstrap width 25%</p>
+            <p class="bg-secondary d-inline-block text-warning h-50">bootstrap width 50%</p>
+            <p class="bg-secondary d-inline-block text-warning h-75">bootstrap width 75%</p>
+            <p class="bg-secondary d-inline-block text-warning h-100">bootstrap width 100%</p>
+        </div>
+        <!-- border -->
+        <div>
+            <p class="bg-warning text-dark mb-2 p-2 border">Regular</p>
+            <p class="bg-warning text-dark mb-2 p-2 border-top">Border Top</p>
+            <p class="bg-warning text-dark mb-2 p-2 border-bottom">Border Bottom</p>
+            <p class="bg-warning text-dark mb-2 p-2 border-right ">Border Right</p>
+            <p class="bg-warning text-dark mb-2 p-2 border-left">Border Left</p>
+        </div>
+        <hr>
+        <!-- border color -->
+        <div>
+            <p class="bg-light text-dark mb-2 p-2 border border-success">Regular</p>
+            <p class="bg-light text-dark mb-2 p-2 border-top border-success">Border Top</p>
+            <p class="bg-light text-dark mb-2 p-2 border-bottom border-secondary">Border Bottom</p>
+            <p class="bg-light text-dark mb-2 p-2 border-right border-success">Border Right</p>
+            <p class="bg-light text-dark mb-2 p-2 border border-primary border-left">Border Left</p>
+        </div>
+        <hr>
+        <!-- border radius (round) -->
+        <div>
+            <p class="bg-light text-dark mb-2 p-2 border border-success rounded">Rounded</p>
+            <p class="bg-light text-dark mb-2 p-2 border-top border-success rounded-top">Border Rounded Top</p>
+            <p class="bg-light text-dark mb-2 p-2 border-bottom border-secondary rounded-bottom">Border Rounded Bottom</p>
+            <p class="bg-light text-dark mb-2 p-2 border-right border-success rounded-right">Border Rounded Right</p>
+            <p class="bg-light text-dark mb-2 p-2 border border-primary border-left rounded-left">Border Rounded Left</p>
+            <p class="bg-light text-dark text-center mb-2 p-2  w-25 border border-primary border-left rounded-circle">Border Rounded Left</p>
+        </div>
+    </div>
+</body>
+
+</html>
